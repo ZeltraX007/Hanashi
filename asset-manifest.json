@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ZeltraX007/Hanashi/static/css/main.31b596a4.chunk.css",
+    "main.js": "/ZeltraX007/Hanashi/static/js/main.539f1251.chunk.js",
+    "main.js.map": "/ZeltraX007/Hanashi/static/js/main.539f1251.chunk.js.map",
+    "runtime-main.js": "/ZeltraX007/Hanashi/static/js/runtime-main.80ed7f89.js",
+    "runtime-main.js.map": "/ZeltraX007/Hanashi/static/js/runtime-main.80ed7f89.js.map",
+    "static/js/2.44ff635e.chunk.js": "/ZeltraX007/Hanashi/static/js/2.44ff635e.chunk.js",
+    "static/js/2.44ff635e.chunk.js.map": "/ZeltraX007/Hanashi/static/js/2.44ff635e.chunk.js.map",
+    "index.html": "/ZeltraX007/Hanashi/index.html",
+    "static/css/main.31b596a4.chunk.css.map": "/ZeltraX007/Hanashi/static/css/main.31b596a4.chunk.css.map",
+    "static/js/2.44ff635e.chunk.js.LICENSE.txt": "/ZeltraX007/Hanashi/static/js/2.44ff635e.chunk.js.LICENSE.txt",
+    "static/media/crown.207ae289.svg": "/ZeltraX007/Hanashi/static/media/crown.207ae289.svg",
+    "static/media/shopping-bag.a688874f.svg": "/ZeltraX007/Hanashi/static/media/shopping-bag.a688874f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80ed7f89.js",
+    "static/js/2.44ff635e.chunk.js",
+    "static/css/main.31b596a4.chunk.css",
+    "static/js/main.539f1251.chunk.js"
+  ]
+}
