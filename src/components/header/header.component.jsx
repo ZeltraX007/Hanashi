@@ -29,10 +29,10 @@ const Header = ({ currentUser, hidden }) => (
         <div class="dropbtn">Dropdown</div>
   
         <div class="dropdown-one">
-          <div id="link1" class="dItem" href="#">Link 1
+          <div id="link1" class="dItem">Link 1
            
             <div class="dropdown-two">
-              <div class="dItem" id="file" href="#">Import</div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop">Import</Link></div>
             </div>
           </div>
           <div class="dItem" href="#">Link 2</div>
