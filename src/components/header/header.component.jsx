@@ -26,7 +26,7 @@ const Header = ({ currentUser, hidden }) => (
         SHOP
       </Link>
       <div class="dropdown">
-        <div class="dropbtn">Dropdown</div>
+        <div class="dropbtn">DROPDOWN</div>
   
         <div class="dropdown-one">
           <div id="link1" class="dItem">Link 1
