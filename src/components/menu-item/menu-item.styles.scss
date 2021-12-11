@@ -24,6 +24,10 @@
 
   &.large{
       height: 380px;
+      width: 50%;
+  }
+  &.medium{
+    height: 380px;
   }
 
   &:first-child {

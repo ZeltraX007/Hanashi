@@ -2,9 +2,14 @@ import React from 'react';
 // import { Slide } from 'react-slideshow-image';
 import './slider.styles.scss';
 
-const colors = ["https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", 
-                "https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260", 
-                "https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"];
+const colors = ["https://i.ibb.co/BL1j5t0/quote1.png", 
+                "https://i.ibb.co/Rjbhs9C/quote2.png", 
+                "https://i.ibb.co/ZBgxGFt/quote3.png",
+                "https://i.ibb.co/MG2qBkD/quote4.png",
+                "https://i.ibb.co/CwjzG2F/quote5.png",
+                "https://i.ibb.co/5GF9k1K/quote6.png",
+                "https://i.ibb.co/37Dt2Lz/quote7.png",
+                "https://i.ibb.co/dMHXXMh/quote8.png"];
 const delay = 2500;
 
 function Slideshow() {
@@ -34,17 +39,7 @@ function Slideshow() {
 
   return (
     <div className="slideshow">
-      <div className="slideshowDots">
-        {colors.map((_, idx) => (
-          <div
-            key={idx}
-            className={`slideshowDot${index === idx ? " active" : ""}`}
-            onClick={() => {
-              setIndex(idx);
-            }}
-          ></div>
-        ))}
-      </div>
+  
 
       <div
         className="slideshowSlider"
