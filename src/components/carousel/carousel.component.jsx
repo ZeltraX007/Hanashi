@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import "slick-carousel/slick/slick.scss";
@@ -19,24 +20,28 @@ export default class CenterMode extends Component {
     };
     return (
       <div className="slider">
+       <div>
+         <h2>Todays specials</h2>
+         <Link to="/shop"><h6>Browse now</h6></Link>
+        </div>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <div className="item" style={{ backgroundImage: `url(https://media.istockphoto.com/photos/colored-powder-explosion-on-black-background-picture-id1057506940?k=20&m=1057506940&s=612x612&w=0&h=3j5EA6YFVg3q-laNqTGtLxfCKVR3_o6gcVZZseNaWGk=)`, backgroundSize:`cover` }}>1</div>
           </div>
           <div>
-            <h3>2</h3>
+            <div className="item">2</div>
           </div>
           <div>
-            <h3>3</h3>
+            <div className="item">3</div>
           </div>
           <div>
-            <h3>4</h3>
+            <div className="item">4</div>
           </div>
           <div>
-            <h3>5</h3>
+            <div className="item">5</div>
           </div>
           <div>
-            <h3>6</h3>
+            <div className="item">6</div>
           </div>
         </Slider>
       </div>

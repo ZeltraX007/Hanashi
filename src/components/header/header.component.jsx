@@ -5,7 +5,7 @@ import { createStructuredSelector } from 'reselect';
 
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import {auth} from '../../firebase/firebase.utils.js';
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '../../assets/han.svg';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component.jsx';
 import { selectCartHidden } from '../../redux/cart/cart.selectors.js';
