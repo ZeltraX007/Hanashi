@@ -15,6 +15,7 @@
   .options {
     width: 50%;
     height: 100%;
+    background-color: #1a000088;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -24,6 +25,8 @@
 
     .option {
       padding: 10px 15px;
+      color: #0f0603;
+
     }
   }
     .king{
@@ -40,7 +43,7 @@
     font-size: 16px;    
     border: none;
     outline: none;
-    color: black;
+    color: white;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;

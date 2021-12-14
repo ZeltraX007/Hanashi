@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.slick-slide{
+    width: 800px;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+h3 {
+ width: 600px;
+    color: #fff;
+    line-height: 50px;
+    margin-top: -12px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    text-align: center;
+}
+h3, h4 {
+    
+    padding: 0;
+    color: inherit;
+    
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    line-height: 1.1;
+}
+h3 {
+    font-size: 1.38316rem;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+h3 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

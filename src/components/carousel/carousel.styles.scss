@@ -1,10 +1,10 @@
+
 .slider {
     width: 100% !important;
     height: 350px !important;;
     margin:10px;
     text-align: center;
 }
-
 .slider > div {
     display:flex;
 }
@@ -27,11 +27,11 @@
     opacity: 0.8;
     transition: all .4s ease;
 }
-
+#browse{
+color: #f2f2f2;
+}
 .item {
-    height: 200px;
-    width: 150px;
-    background: #5f9ea0;
+    
     color: #fff;
     font-size: 36px;
     line-height: 100px;
@@ -39,4 +39,7 @@
     padding: 2%;
     position: relative;
     text-align: center;
-}
+    }
+    .item img{
+        max-height: 200px;
+    }

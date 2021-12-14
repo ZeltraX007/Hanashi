@@ -16,32 +16,35 @@ export default class CenterMode extends Component {
       centerPadding: "60px",
       slidesToShow: 5,
       speed: 500,
-      dots: true
+      dots: true,
+      infinite: true,
+      focusOnSelect: true,
+      adaptiveHeight: true
     };
     return (
       <div className="slider">
        <div>
          <h2>Todays specials</h2>
-         <Link to="/shop"><h6>Browse now</h6></Link>
+         <Link to="/shop"><h6 id="browse">Browse now</h6></Link>
         </div>
         <Slider {...settings}>
           <div>
-            <div className="item" style={{ backgroundImage: `url(https://media.istockphoto.com/photos/colored-powder-explosion-on-black-background-picture-id1057506940?k=20&m=1057506940&s=612x612&w=0&h=3j5EA6YFVg3q-laNqTGtLxfCKVR3_o6gcVZZseNaWGk=)`, backgroundSize:`cover` }}>1</div>
+            <div className="item" ><img src="https://m.media-amazon.com/images/I/515uo-Yp0UL.jpg"></img></div>
           </div>
           <div>
-            <div className="item">2</div>
+            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/433/9781250044433.jpg"></img></div>
           </div>
           <div>
-            <div className="item">3</div>
+            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/868/9781492666868.jpg"></img></div>
           </div>
           <div>
-            <div className="item">4</div>
+            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/132/9780316316132.jpg"></img></div>
           </div>
           <div>
-            <div className="item">5</div>
+            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/933/9781501161933.jpg"></img></div>
           </div>
           <div>
-            <div className="item">6</div>
+            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/624/9780062060624.jpg"></img></div>
           </div>
         </Slider>
       </div>
