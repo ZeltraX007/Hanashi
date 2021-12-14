@@ -12,8 +12,8 @@ import './header.styles.scss';
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <div >
-      <a href='#'>
-        <img id='logo' src="https://i.ibb.co/t49fHxV/han1.png"></img></a></div>
+      <a href='/'>
+        <img id='logo' alt="Hanashi logo" src="https://i.ibb.co/t49fHxV/han1.png"></img></a></div>
     <div className="options">
       <Link className="option" to="/shop">
         SHOP
