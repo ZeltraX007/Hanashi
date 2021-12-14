@@ -5,10 +5,10 @@ export default class VerticalMode extends Component {
   render() {
     const settings = {
 
-      infinite: false,
+      infinite: true,
       fade:true,
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 1500,
       slidesToShow: 1,
       vertical: true,
       pauseOnHover: true,

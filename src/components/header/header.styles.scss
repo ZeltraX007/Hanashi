@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-.header {
+
+#logo{
+  width: 40%;
+}
+ .header {
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
 
-  .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
-  }
 
   .options {
-    width: 50%;
+    width: 30%;
     height: 100%;
     background-color: #1a000088;
     display: flex;
@@ -68,7 +67,7 @@
   cursor: pointer;
   display: none;
   position: absolute;
-  left: 160px;
+  right: 160px;
   top: 0px;
   min-width: 160px;
   background-color: #f9f9f9;
