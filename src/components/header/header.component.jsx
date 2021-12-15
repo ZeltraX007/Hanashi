@@ -19,17 +19,46 @@ const Header = ({ currentUser, hidden }) => (
         SHOP
       </Link>
       <div class="dropdown">
-        <div class="dropbtn">Categories</div>
+        <div class="dropbtn">CATEGORIES</div>
   
         <div class="dropdown-one">
-          <div id="link1" class="dItem">Fiction
-           
+          <div id="link1" class="dItem">Fiction 
             <div class="dropdown-two">
-              <div class="dItem" id="file" href="#"><Link className="option" to="/shop">Science-Fiction</Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Science-Fiction</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Romance</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Fantasy</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Mystery</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Horror</nobr></Link></div>
             </div>
           </div>
-          <div class="dItem" href="#">Link 2</div>
-          <div class="dItem" href="#">Link 3</div>
+          <div id="link1" class="dItem" href="#">Arts
+          <div class="dropdown-two">
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Architecture</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Design</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Painting</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Photography</nobr></Link></div>
+            </div>
+          </div>
+          <div id="link1" class="dItem" href="#">Childrens
+          <div class="dropdown-two">
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Baby Books</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Picture Books</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Bedtime Books</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Stories in Rhyme</nobr></Link></div>
+            </div>
+          </div>
+          <div class="dItem" href="#">Self Help</div>
+          <div id="link1" class="dItem" href="#">Science and Technology
+          <div class="dropdown-two">
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Maths</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Biology</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Physics</nobr></Link></div>
+              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Chemistry</nobr></Link></div>
+            </div>
+          </div>
+          <div class="dItem" href="#">Architecture</div>
+          <div class="dItem" href="#">Business and Economics</div>
+          <div class="dItem" href="#">Biographies and Memoirs</div>
         </div>
       </div> 
       <Link className="option" to="/contact">

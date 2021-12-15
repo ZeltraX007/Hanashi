@@ -4,12 +4,14 @@
   position: relative;
   display: flex;
   align-items: center;
+  color: rgba(255, 255, 255, 0.507);
   justify-content: center;
   cursor: pointer;
 
   .shopping-icon {
     width: 24px;
     height: 24px;
+    
   }
 
   .item-count {
