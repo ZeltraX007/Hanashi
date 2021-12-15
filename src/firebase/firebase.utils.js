@@ -3,14 +3,14 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 var config = {
-    apiKey: "AIzaSyAfHq_LAVL4gIH8mguL0Dragp1aWFQpWlg",
-    authDomain: "ecom-db-f8713.firebaseapp.com",
-    databaseURL: "https://ecom-db-f8713.firebaseio.com",
-    projectId: "ecom-db-f8713",
-    storageBucket: "ecom-db-f8713.appspot.com",
-    messagingSenderId: "39362193920",
-    appId: "1:39362193920:web:31d9128b6ebb77dc5d86e5",
-    measurementId: "G-E4NJ30JCLD"
+    apiKey: "AIzaSyBWpzRD3Vb-Vj2UtZyXPC18oMPTWHF4BbY",
+    authDomain: "hanashi-store.firebaseapp.com",
+    databaseURL: "https://hanashi-store-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    projectId: "hanashi-store",
+    storageBucket: "hanashi-store.appspot.com",
+    messagingSenderId: "372180315577",
+    appId: "1:372180315577:web:a26ca466f12f6917f01a68",
+    //measurementId: "G-E4NJ30JCLD"
 }
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
