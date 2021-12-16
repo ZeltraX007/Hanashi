@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  padding-right: 50px;
 
 
   .options {
@@ -23,7 +24,7 @@
     cursor: pointer;
 
     .option {
-      padding: 10px 15px;
+      padding: 10px 30px;
       color: #0f0603;
       font-size: 15px;
       font-weight: bold;
@@ -72,7 +73,9 @@
   
   right: 160px;
   font-size: 14px;
-  min-width:fit-content;
+  min-width: -moz-fit-content;
+  min-width: -webkit-fill-available;
+  min-width: fit-content;
   background-color: #fcd5b188;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }

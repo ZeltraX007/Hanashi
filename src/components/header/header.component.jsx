@@ -48,7 +48,7 @@ const Header = ({ currentUser, hidden }) => (
             </div>
           </div>
           <div class="dItem" href="#">Self Help</div>
-          <div id="link1" class="dItem" href="#">Science and Technology
+          <div id="link1" class="dItem" href="#"><nobr>Science and Technology</nobr>
           <div class="dropdown-two">
               <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Maths</nobr></Link></div>
               <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Biology</nobr></Link></div>
@@ -57,8 +57,8 @@ const Header = ({ currentUser, hidden }) => (
             </div>
           </div>
           <div class="dItem" href="#">Architecture</div>
-          <div class="dItem" href="#">Business and Economics</div>
-          <div class="dItem" href="#">Biographies and Memoirs</div>
+          <div class="dItem" href="#"><nobr>Business and Economics</nobr></div>
+          <div class="dItem" href="#"><nobr>Biographies and Memoirs</nobr></div>
         </div>
       </div> 
       <Link className="option" to="/contact">
