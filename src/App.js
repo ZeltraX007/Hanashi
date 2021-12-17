@@ -8,6 +8,7 @@ import ContactUs from './pages/contact/contact.component'
 
 import SignInAndSignUp from './pages/sign-in-sign-up/sign-in-sign-up.component'
 import Header from './components/header/header.component'
+import Navbar from './components/sidebar/sidebar.component'
 
 import { createStructuredSelector } from 'reselect';
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils.js";

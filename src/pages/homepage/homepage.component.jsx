@@ -5,7 +5,7 @@ import Slideshow from '../../components/slider/slider.component';
 import Banner from '../../components/banner/banner.component'
 import Footer from "../../components/footer/footer.component"
 import SimpleSlider from '../../components/carousel/carousel.component';
-import VerticalMode from '../../components/vertical-carousal/vertical.component'
+import VerticalMode from '../../components/vertical-carousal/vertical.component';
 import "./homepage.styles.scss";
 
 const HomePage = () => (

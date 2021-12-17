@@ -3,6 +3,12 @@
 #logo{
   width: 40%;
 }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
  .header {
   height: 70px;
   width: 100%;
