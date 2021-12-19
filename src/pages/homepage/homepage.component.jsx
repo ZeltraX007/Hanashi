@@ -8,7 +8,8 @@ import SimpleSlider from '../../components/carousel/carousel.component';
 import VerticalMode from '../../components/vertical-carousal/vertical.component';
 import "./homepage.styles.scss";
 
-const HomePage = () => (
+export default function Homepage({ history }) {
+  return(
   <div>
     <div className="homepage">
       <SimpleSlider />
@@ -21,7 +22,7 @@ const HomePage = () => (
     </div>
     <Footer className="footer"/>
   </div>
+  )
   
-);
+}
 
-export default HomePage;

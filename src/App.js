@@ -1,5 +1,7 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
 
 import HomePage from './pages/homepage/homepage.component'
 import ShopPage from './pages/shop/shop.component'
@@ -8,13 +10,11 @@ import ContactUs from './pages/contact/contact.component'
 
 import SignInAndSignUp from './pages/sign-in-sign-up/sign-in-sign-up.component'
 import Header from './components/header/header.component'
-import Navbar from './components/sidebar/sidebar.component'
 
-import { createStructuredSelector } from 'reselect';
-import { auth, createUserProfileDocument } from "./firebase/firebase.utils.js";
-import { connect } from 'react-redux';
+import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selector';
+// import { selectCollections} from './redux/shop/shop.selectors';
 
 import "./App.css";
 

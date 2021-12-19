@@ -40,17 +40,21 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     return userRef
 }
 
-export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
-    const collectionRef = firestore.collection(collectionKey)
-    // console.log(collectionRef)
-    const batch = firestore.batch()
-    objectsToAdd.forEach(obj => {
-        const newDocRef = collectionRef.doc()
-        // console.log(newDocRef)
-        batch.set(newDocRef, obj)
-    })
-    return await batch.commit()
-}
+export const addCollectionAndDocuments = async(
+    collectionKey,
+    objectsToAdd
+) => {
+    const collectionRef = firestore.collection(collectionKey);
+
+    const batch = firestore.batch();
+    objectsToAdd.forEach((obj) => {
+        const newDocRef = collectionRef.doc(); //.doc() is telling firebase that create a ref and randomly give it an unique ID
+        batch.set(newDocRef, obj);
+    });
+
+    return await batch.commit();
+};
+
 
 
 export const convertCollectionsSnapshotToMap = (collections) => {
