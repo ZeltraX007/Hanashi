@@ -19,7 +19,6 @@
 
 
   .options {
-    width: 30%;
     height: 100%;
     background-color: #1a000088;
     display: flex;
@@ -98,5 +97,9 @@
 }
 
 .dropdown-one .dItem:hover, .dropdown-two a:hover {
-    background-color: rgba(221, 221, 221, 0.521);
+    background-color: rgba(221, 221, 221, 0.253);
+}
+
+.option:hover{
+  text-shadow: 0 0 20px #ffffff;
 }

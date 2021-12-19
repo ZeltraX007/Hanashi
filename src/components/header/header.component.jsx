@@ -81,7 +81,6 @@ const Header = ({ currentUser, hidden }) => (
         hidden ? null:
         <CartDropdown />
     }
-      {/* <p className="king">{" "}</p> */}
   </div>
 );
 
