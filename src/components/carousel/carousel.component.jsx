@@ -15,7 +15,7 @@ export default class CenterMode extends Component {
       centerPadding: "60px",
       slidesToShow: 5,
       speed: 500,
-      dots: true,
+      dots: false,
       infinite: true,
       focusOnSelect: true,
       adaptiveHeight: true
