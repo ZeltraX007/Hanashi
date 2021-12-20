@@ -2,8 +2,8 @@ import SimpleReactFooter from "simple-react-footer";
 
 class Footer extends SimpleReactFooter {
     render() {
-        const description = "The dog or domestic dog, (Canis familiaris[4][5] or Canis lupus familiaris[5]) is a domesticated descendant of the wolf which is characterized by an upturning tail. The dog derived from an ancient, extinct wolf,[6][7] and the modern grey wolf is the dog's nearest living relative.[8] The dog was the first species to be domesticated,[9][8] by hunter–gatherers over 15,000 years ago,[7] before the development of agriculture.[1]";
-        const title = "Dogs";
+        const description = "In the modern world where technology has created a variety in the ways to obtain knowledge, books are still considered to the best way to expand our vision and spread ideas. Hanashi aims at providing people with such opportunities to create a impact and thus obtain ideas in return. Because we believe books are an invaluable asset. ";
+        const title = "Vision";
         const columns = [
           {
               title: "Resources",

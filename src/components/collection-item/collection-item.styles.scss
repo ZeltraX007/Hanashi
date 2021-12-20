@@ -1,5 +1,5 @@
 .collection-item {
-  width: 22%;
+  width: 72%;
   display: flex;
   flex-direction: column;
   height: 350px;
@@ -7,7 +7,7 @@
   position: relative;
 
   .image {
-    width: 100%;
+    width: 70%;
     height: 95%;
     background-size: cover;
     background-position: center;
@@ -49,4 +49,8 @@
       width: 10%;
     }
   }
+}
+.collection-page
+{
+  padding-left:6%;
 }
