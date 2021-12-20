@@ -15,7 +15,7 @@
   }
 
   .custom-button{
-    width: 80%;
+    width: 50%;
     opacity: 0.7;
     position: absolute;
     top: 255px;
@@ -34,19 +34,16 @@
   }
 
   .collection-footer {
-    width: 100%;
+    width: 70%;
     height: 5%;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    font-weight: bold;
 
     .name {
       width: 90%;
       margin-bottom: 15px;
-    }
-
-    .price {
-      width: 10%;
     }
   }
 }
