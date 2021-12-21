@@ -8,6 +8,7 @@ const SHOP_DATA = [
         id: 1,
         name: "The Time Machine",
         by: "H.G. Wells",
+        
         imageUrl: "https://m.media-amazon.com/images/I/51V3fk728LL.jpg",
         price: 25
       },
@@ -77,7 +78,7 @@ const SHOP_DATA = [
       {
         id: 10,
         name: "The Invisible Life of Addie LaRue",
-        by: "Stephen King",
+        by: "V.E. Schwab",
         imageUrl: "https://m.media-amazon.com/images/I/51OipynKAVL.jpg",
         price: 220
       },
@@ -90,7 +91,7 @@ const SHOP_DATA = [
       },
       {
         id: 12,
-        name: "A Touch of Darkness (Hades X Persephone Book 1)",
+        name: "A Touch of Darkness",
         by: "Scarlett St. Clair",
         imageUrl: "https://m.media-amazon.com/images/I/51khi7TjNwL.jpg",
         price: 110
@@ -335,7 +336,7 @@ const SHOP_DATA = [
     items: [
       {
         id: 42,
-        name: "A Game of Thrones (A Song of Ice and Fire, Book 1)",
+        name: "A Game of Thrones",
         by: "George R. R. Martin",
         imageUrl: "https://images-na.ssl-images-amazon.com/images/I/5163N91r6lL._SX302_BO1,204,203,200_.jpg",
         price: 325
