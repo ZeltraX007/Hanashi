@@ -1,3 +1,4 @@
+
 .collection-item {
   width: 72%;
   display: flex;
@@ -34,20 +35,20 @@
   }
 
   .collection-footer {
-<<<<<<< HEAD
     width: 70%;
-=======
-    width: 80%;
->>>>>>> b74bc63fc45809e3c0dbeb7fd10805f894e1484e
-    height: 5%;
+    min-height: 7%;
     display: flex;
+    background: rgba(243, 242, 224, 0.466);
     justify-content: space-between;
     font-size: 18px;
     font-weight: bold;
+    padding-right: 3px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.76);
 
     .name {
       width: 90%;
-      margin-bottom: 15px;
+      padding-bottom: 3px;
+      padding-left: 3px;
     }
   }
 }

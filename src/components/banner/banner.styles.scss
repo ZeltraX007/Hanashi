@@ -3,7 +3,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
-    background-color: #ffc40c;}
+    background-color: #ffc40c;
+    height: auto;
+}
   .w-col-6 {
     width: 50%;
   }
@@ -12,9 +14,10 @@
     float: left;
     width: 50%;
     min-height: 1px;
+    
   }
   .column-6 {
-    padding: 101px 133px;
+    padding: 100px 133px;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
@@ -27,8 +30,7 @@
       letter-spacing: 1px;
       text-decoration: none;
       text-transform: none;
-  }
-  
+  } 
   .header-1 {
     margin-right: 0px;
     margin-bottom: 0px;
@@ -37,7 +39,7 @@
     flex: 0 auto;
     font-family: Jubilat, Georgia, sans-serif;
     color: #2a2a2a;
-    font-size: 60px;
-    line-height: 68px;
+    font-size: 20px;
+    line-height: 43px;
     letter-spacing: 2px;
   }
