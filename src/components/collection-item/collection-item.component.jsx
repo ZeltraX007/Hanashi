@@ -18,7 +18,7 @@ const CollectionItem = ({item, addItem}) => {
         />
         
         <div className="collection-footer">
-         <div className="pop"><span className="hoe">{by}</span></div>
+         <div className="pop"><span className="ho">{by}</span></div>
           <span className="name"> {name} </span><span className="by">{by}</span>
           <span className="price"> {price} </span>
         </div>

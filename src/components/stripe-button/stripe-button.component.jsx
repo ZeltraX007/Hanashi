@@ -12,10 +12,10 @@ export default function StripeButton({ price }) {
     return (
         <StripeCheckout
             label="Pay Now"
-            name='AK Clothing Ltd.'
+            name='Hanashi Corp.'
             billingAddress
             shippingAddress
-            image='https://svgshare.com/i/QaG.svg'
+            image='https://i.ibb.co/zJYLsRL/han2.png'
             description={`Your total is ${price}`}
             amount={priceForStripe}
             panelLabel="Pay Now"

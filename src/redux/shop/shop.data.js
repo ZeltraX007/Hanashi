@@ -358,7 +358,7 @@ const SHOP_DATA = [
       
       {
         id: 45,
-        name: "Six of Crows (Six of Crows, 1)",
+        name: "Six of Crows",
         by: "Leigh Bardugo",
         imageUrl: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628438817l/23437156._SX318_.jpg",
         price: 25
