@@ -7,7 +7,7 @@ import './collection-item.styles.scss';
 
 
 const CollectionItem = ({item, addItem}) => {
-    const {name,by, price, imageUrl} = item;
+    const {name,by, desc, price, imageUrl} = item;
     return (
       <div className="collection-item">
         <div
@@ -18,7 +18,11 @@ const CollectionItem = ({item, addItem}) => {
         />
         
         <div className="collection-footer">
+<<<<<<< HEAD
          <div className="pop"><span className="ho">{by}</span></div>
+=======
+         <div className="pop"><span className="hoe">{desc}</span></div>
+>>>>>>> 584a6f2917ac012220db2415c3a7f80564f00eda
           <span className="name"> {name} </span><span className="by">{by}</span>
           <span className="price"> {price} </span>
         </div>
