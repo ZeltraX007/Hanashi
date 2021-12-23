@@ -11,6 +11,10 @@
     .image{
       opacity: 0.8;
     }
+    .custom-button{
+      opacity: 0.85;
+      display: flex;
+    }
 
 }
   .image {
@@ -30,10 +34,7 @@
   }
 
  
-    .custom-button{
-      opacity: 0.85;
-      display: flex;
-    }
+    
   }
 
   .collection-footer {
@@ -67,7 +68,7 @@
 .pop{
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+
 }
 .ho{
   padding:20px;
