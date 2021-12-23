@@ -38,6 +38,7 @@
   "devDependencies": {
     "favicons-webpack-plugin": "^5.0.2",
     "react-scripts": "^4.0.1",
+    "tailwindcss": "^3.0.7",
     "webpack-pwa-manifest": "^4.3.0"
   },
   "scripts": {

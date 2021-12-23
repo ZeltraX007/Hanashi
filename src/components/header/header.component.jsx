@@ -26,11 +26,11 @@ const Header = ({ currentUser, hidden }) => (
         <div class="dropdown-one">
           <div id="link1" class="dItem">Fiction 
             <div class="dropdown-two">
-              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Science-Fiction</nobr></Link></div>
-              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Romance</nobr></Link></div>
-              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Fantasy</nobr></Link></div>
-              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Mystery</nobr></Link></div>
-              <div class="dItem" id="file" href="#"><Link className="option" to="/shop"><nobr>Horror</nobr></Link></div>
+              <div class="dItem" id="file"><Link className="option" to="/shop/science-fiction"><nobr>Science-Fiction</nobr></Link></div>
+              <div class="dItem" id="file"><Link className="option" to="/shop/romance"><nobr>Romance</nobr></Link></div>
+              <div class="dItem" id="file"><Link className="option" to="/shop/fantasy"><nobr>Fantasy</nobr></Link></div>
+              <div class="dItem" id="file"><Link className="option" to="/shop/mystery"><nobr>Mystery</nobr></Link></div>
+              <div class="dItem" id="file"><Link className="option" to="/shop/horror"><nobr>Horror</nobr></Link></div>
             </div>
           </div>
           <div id="link1" class="dItem" href="#">Arts
