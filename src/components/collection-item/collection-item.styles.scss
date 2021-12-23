@@ -11,6 +11,10 @@
     .image{
       opacity: 0.8;
     }
+    .custom-button{
+      opacity: 0.85;
+      display: flex;
+    }
 
 }
   .image {
@@ -30,10 +34,6 @@
   }
 
  
-    .custom-button{
-      opacity: 0.85;
-      display: flex;
-    }
   }
 
   .collection-footer {
@@ -65,7 +65,11 @@
   padding-left:6%;
 }
 .pop{
-  position: relative;
+  position: absolute;
+  top:30%;
+  bottom:0;
+  left:15%;
+  right: 50%;
   display: inline-block;
   border-bottom: 1px dotted black;
 }
@@ -83,10 +87,8 @@
   font-size: .8em;
   text-align: center;
   border-radius: 6px;  
- left: 2.3vw;
- bottom: 23vh;
-  position: absolute;
   z-index: 1;
+  position: absolute;
 }
 .pop .ho::-webkit-scrollbar {
   width: 16px;
