@@ -23,7 +23,7 @@ return (
           <ContactForm />
         </div></div>
         <div>
-      <Footer className="footer"/>
+          <div className="foot-wrap"><Footer className="footer"/></div>
       </div>
     </div>
   );
