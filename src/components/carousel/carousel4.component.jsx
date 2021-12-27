@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick-theme.scss";
 import './carousel.styles.scss';
 
-export default class CenterMode extends Component {
+export default class CenterMode4 extends Component {
   render() {
     const settings = {
       className: "center",
@@ -23,7 +23,7 @@ export default class CenterMode extends Component {
     return (
       <div className="slider">
        <div>
-         <h2>New Releases</h2>
+         <h2>Editor's Choice</h2>
          <Link to="/shop"><h6 id="browse">Browse now</h6></Link>
         </div>
         <Slider {...settings}>
