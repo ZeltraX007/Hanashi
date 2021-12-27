@@ -20,7 +20,7 @@
     
     flex-direction: row;
     justify-content: center;
-    align-items: baseline;
+    // align-items: baseline;
     background-color: wheat;
    
     font-family: Lato, Arial, sans-serif;
@@ -32,11 +32,10 @@
       text-transform: none;
   } 
   .header-1 {
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    align-self: center;
-    flex: 0 auto;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+   text-align: center;
     font-family: Jubilat, Georgia, sans-serif;
     color: #2a2a2a;
     font-size: 20px;

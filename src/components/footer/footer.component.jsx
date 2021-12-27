@@ -5,16 +5,25 @@ class Footer extends SimpleReactFooter {
         const description = "In the modern world where technology has created a variety in the ways to obtain knowledge, books are still considered to the best way to expand our vision and spread ideas. Hanashi aims at providing people with such opportunities to create a impact and thus obtain ideas in return. Because we believe books are an invaluable asset. ";
         const title = "Vision";
         const columns = [
+            {
+                title: "",
+                resources: [
+                    {
+                        name: "",
+                        link: ""
+                    },
+                    {
+                        name: "",
+                        link: ""
+                    }
+                ]
+            },
           {
               title: "Resources",
               resources: [
                   {
                       name: "About",
                       link: "/about"
-                  },
-                  {
-                      name: "Careers",
-                      link: "/careers"
                   },
                   {
                       name: "Contact",
@@ -39,19 +48,6 @@ class Footer extends SimpleReactFooter {
                   }
               ]
           },
-          {
-              title: "Visit",
-              resources: [
-                  {
-                      name: "Locations",
-                      link: "/locations"
-                  },
-                  {
-                      name: "Culture",
-                      link: "/culture"
-                  }
-              ]
-          }
        ];
        return <SimpleReactFooter 
           description={description} 

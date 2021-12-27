@@ -10,14 +10,15 @@ const CollectionItem = ({item, addItem}) => {
     const {name,by, desc, price, imageUrl} = item;
     return (
       <div className="collection-item">
-        <div
+         
+         <div
           className="image"
           style={{
             backgroundImage: `url(${imageUrl})`
           }}
         />
+       
         <div className="pop"><span className="ho">{desc}</span></div>
-        
         <div className="collection-footer">
           <span className="name"> {name} </span><span className="by">{by}</span>
           <span className="price"> {price} </span>

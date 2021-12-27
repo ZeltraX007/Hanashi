@@ -5,15 +5,22 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './sidebar.styles.scss';
 import { IconContext } from 'react-icons';
+import { useEffect } from 'react';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   let iconStyles = { color: "black" };
   const showSidebar = () => setSidebar(!sidebar);
 
+
+  useEffect(()=>{
+    document.addEventListener("mousedown",()=>{
+      setSidebar(false);
+    })
+  })
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: '#000' }}>
         <div>
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars style={iconStyles} onClick={showSidebar} />
