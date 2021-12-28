@@ -7,13 +7,12 @@ import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component.jsx';
 import { selectCartHidden } from '../../redux/cart/cart.selectors.js';
 import { selectCurrentUser } from '../../redux/user/user.selector.js';
-import Navbar from '../sidebar/sidebar.component'
 import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <div className='logo'>
-      <Navbar />
+      
       <a href='/'>
         <img id='logo' alt="Hanashi logo" src="https://i.ibb.co/t49fHxV/han1.png"></img></a></div>
     <div className="options">
