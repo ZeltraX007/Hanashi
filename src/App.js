@@ -10,7 +10,7 @@ import ContactUs from './pages/contact/contact.component'
 
 import SignInAndSignUp from './pages/sign-in-sign-up/sign-in-sign-up.component'
 import Header from './components/header/header.component'
-
+import About from './pages/about/about.component'
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selector';
@@ -54,9 +54,11 @@ class App extends React.Component{
           <Route path="/shop" component={ShopPage} />
           <Route path="/contact" component={ContactUs} />
           <Route exact path='/checkout' component={CheckoutPage} />
+          <Route path="/about" component={About} />
+          <Route path="/" component={HomePage} />
+          <Route path="/" component={HomePage} />
           <Route 
-          exact
-          path="/signin" 
+          exact path="/signin" 
           render={() => 
             this.props.currentUser ? (
 

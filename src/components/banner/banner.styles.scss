@@ -5,6 +5,7 @@
     align-items: baseline;
     background-color: #ffc40c;
     height: auto;
+    padding-top: 30px;
 }
   .w-col-6 {
     width: 50%;
@@ -13,16 +14,14 @@
     position: relative;
     float: left;
     width: 50%;
-    min-height: 1px;
-    
+    min-height: 600px; 
   }
   .column-6 {
     
     flex-direction: row;
     justify-content: center;
-    // align-items: baseline;
     background-color: wheat;
-   
+    padding-top: 80px;
     font-family: Lato, Arial, sans-serif;
       color: #2a2a2a;
       font-size: 13px;
@@ -30,6 +29,8 @@
       letter-spacing: 1px;
       text-decoration: none;
       text-transform: none;
+      padding-left: 30px;
+      padding-right: 30px;
   } 
   .header-1 {
     margin-right: 40px;
@@ -40,5 +41,8 @@
     color: #2a2a2a;
     font-size: 20px;
     line-height: 43px;
-    letter-spacing: 2px;
+    letter-spacing: 2px;    
+  }
+  i{
+    font-size: 25px;
   }

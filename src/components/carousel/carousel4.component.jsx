@@ -28,22 +28,22 @@ export default class CenterMode4 extends Component {
         </div>
         <Slider {...settings}>
           <div>
-            <div className="item" ><img src="https://m.media-amazon.com/images/I/515uo-Yp0UL.jpg"></img></div>
+            <div className="item" ><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470427482l/27362503._SY475_.jpg"></img></div>
           </div>
           <div>
-            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/433/9781250044433.jpg"></img></div>
+            <div className="item"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465563623l/27883214.jpg"></img></div>
           </div>
           <div>
             <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/868/9781492666868.jpg"></img></div>
           </div>
           <div>
-            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/132/9780316316132.jpg"></img></div>
+            <div className="item"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486837149l/131359._SY475_.jpg"></img></div>
           </div>
           <div>
-            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/933/9781501161933.jpg"></img></div>
+            <div className="item"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579621267l/968.jpg"></img></div>
           </div>
           <div>
-            <div className="item"><img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/624/9780062060624.jpg"></img></div>
+            <div className="item"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466865542l/18144590._SY475_.jpg"></img></div>
           </div>
         </Slider>
       </div>

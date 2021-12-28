@@ -26,10 +26,6 @@ class Footer extends SimpleReactFooter {
                       link: "/about"
                   },
                   {
-                      name: "Contact",
-                      link: "/contact"
-                  },
-                  {
                       name: "Admin",
                       link: "/admin"
                   }
