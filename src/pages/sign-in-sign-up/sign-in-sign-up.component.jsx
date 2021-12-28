@@ -12,7 +12,7 @@ const SignInAndSignUp = () => (
             <SignIn />
             <SignUp />
         </div>
-        <Footer className="footer"/>
+        <div className='foot-fix'><Footer className="footer"/></div>
      </div>
 )
 
