@@ -7,10 +7,12 @@ import HomePage from './pages/homepage/homepage.component'
 import ShopPage from './pages/shop/shop.component'
 import CheckoutPage from './pages/checkout/checkout.component'
 import ContactUs from './pages/contact/contact.component'
+import About from './pages/about/about.component'
+import Privacy from './pages/privacy/privacy.component'
+import Terms from './pages/terms/terms.component'
 
 import SignInAndSignUp from './pages/sign-in-sign-up/sign-in-sign-up.component'
 import Header from './components/header/header.component'
-import About from './pages/about/about.component'
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selector';
@@ -55,7 +57,8 @@ class App extends React.Component{
           <Route path="/contact" component={ContactUs} />
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route path="/about" component={About} />
-          <Route path="/" component={HomePage} />
+          <Route path="/privacy" component={Privacy} />
+          <Route path="/terms" component={Terms} />
           <Route path="/" component={HomePage} />
           <Route 
           exact path="/signin" 
