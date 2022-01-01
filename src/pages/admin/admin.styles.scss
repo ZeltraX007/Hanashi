@@ -1,0 +1,26 @@
+.heady img{
+    width: 5%;
+    height: 5%;
+}
+.heady{
+    font-size: 40px;
+    width: fit-content;    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+display: flex;
+justify-content: center;
+
+}
+.row div{
+    width: 50%;
+   text-align: center;
+   font-size: 35px;
+}
+.row img{
+    width: 30%;
+    border-radius: 20%;
+}
