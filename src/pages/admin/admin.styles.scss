@@ -16,11 +16,22 @@ justify-content: center;
 
 }
 .row div{
-    width: 50%;
+    width: 30%;
    text-align: center;
    font-size: 35px;
 }
-.row img{
-    width: 30%;
+.id{
+    width: 200px;
     border-radius: 20%;
+    height: 250px;
+    object-fit: cover;
+}
+.arr{
+    width: 10%;
+  
+    position:absolute;
+}
+.arr2{
+    width: 5%;
+    position: absolute;
 }
