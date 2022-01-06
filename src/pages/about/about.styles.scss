@@ -1,9 +1,55 @@
-.about span{
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.log img{
+    width: 50%;
+    border-radius: 250px;
+    border: 5px solid chocolate ;
+    float: right;
+    margin-top: 42px;
+}
+.head img{
+    width: 7%;
+    height: 7%;
+  vertical-align: 105px;
+ padding-top: 200px;
+}
+.head{
+    font-size: 140px;
+    z-index: 10px;
+    width: fit-content;
+    position: absolute;
+    top: 150px;
+    left: 240px;
+    display: inline-flex;
+}
+.bout p{
     font-size: 17px;
-  
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    
 }
+.bout{
+    margin:40px;
+    padding: 30px;
+    width: 50%;
+    background-color: rgba(99, 63, 38, 0.897);
+    box-shadow: 5px 5px 250px rgb(41, 40, 40) ;
+   position: relative;
+   left: 90px;
+   bottom: 100px;
+   align-content: center;
+   margin: 40px;
+}
+.bout {
+ display: inline-flex;   
+} 
+.col-1, .col-2{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 50%;
+}
+.col-1{
+    border-right: 1px solid rgb(204, 201, 197);
+}
+   
 
-.foot{
-    position:fixed;
-    bottom:0;
-}

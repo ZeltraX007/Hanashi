@@ -18,7 +18,8 @@ function ContactUs() {
        
 return (
     <div className="contact-us">
-        <div className="form"><h1 className="owText">Contact US</h1>
+        <div className="form">
+        <div className="headt"><img src="https://i.ibb.co/KwxWKG8/arr-left.png"></img><h1 className="owText">Contact US</h1><img src="https://i.ibb.co/HnKGrD9/arr-right.png"></img></div>
         <div className="py-6">
           <ContactForm />
         </div></div>

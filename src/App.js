@@ -10,7 +10,7 @@ import ContactUs from './pages/contact/contact.component'
 import About from './pages/about/about.component'
 import Privacy from './pages/privacy/privacy.component'
 import Terms from './pages/terms/terms.component'
-
+import Admin from './pages/admin/admin.component'
 import SignInAndSignUp from './pages/sign-in-sign-up/sign-in-sign-up.component'
 import Header from './components/header/header.component'
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
@@ -59,7 +59,7 @@ class App extends React.Component{
           <Route path="/about" component={About} />
           <Route path="/privacy" component={Privacy} />
           <Route path="/terms" component={Terms} />
-          <Route path="/" component={HomePage} />
+          <Route path="/admin" component={Admin} />
           <Route 
           exact path="/signin" 
           render={() => 
