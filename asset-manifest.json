@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/ZeltraX007/Hanashi/static/css/main.31b596a4.chunk.css",
-    "main.js": "/ZeltraX007/Hanashi/static/js/main.539f1251.chunk.js",
-    "main.js.map": "/ZeltraX007/Hanashi/static/js/main.539f1251.chunk.js.map",
-    "runtime-main.js": "/ZeltraX007/Hanashi/static/js/runtime-main.80ed7f89.js",
-    "runtime-main.js.map": "/ZeltraX007/Hanashi/static/js/runtime-main.80ed7f89.js.map",
-    "static/js/2.44ff635e.chunk.js": "/ZeltraX007/Hanashi/static/js/2.44ff635e.chunk.js",
-    "static/js/2.44ff635e.chunk.js.map": "/ZeltraX007/Hanashi/static/js/2.44ff635e.chunk.js.map",
-    "index.html": "/ZeltraX007/Hanashi/index.html",
-    "static/css/main.31b596a4.chunk.css.map": "/ZeltraX007/Hanashi/static/css/main.31b596a4.chunk.css.map",
-    "static/js/2.44ff635e.chunk.js.LICENSE.txt": "/ZeltraX007/Hanashi/static/js/2.44ff635e.chunk.js.LICENSE.txt",
-    "static/media/crown.207ae289.svg": "/ZeltraX007/Hanashi/static/media/crown.207ae289.svg",
-    "static/media/shopping-bag.a688874f.svg": "/ZeltraX007/Hanashi/static/media/shopping-bag.a688874f.svg"
+    "main.css": "/Hanashi/static/css/main.c5309131.css",
+    "main.js": "/Hanashi/static/js/main.483d11c7.js",
+    "static/media/shopping-bag.svg": "/Hanashi/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/slick.svg": "/Hanashi/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Hanashi/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Hanashi/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Hanashi/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Hanashi/index.html",
+    "main.c5309131.css.map": "/Hanashi/static/css/main.c5309131.css.map",
+    "main.483d11c7.js.map": "/Hanashi/static/js/main.483d11c7.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.80ed7f89.js",
-    "static/js/2.44ff635e.chunk.js",
-    "static/css/main.31b596a4.chunk.css",
-    "static/js/main.539f1251.chunk.js"
+    "static/css/main.c5309131.css",
+    "static/js/main.483d11c7.js"
   ]
 }
