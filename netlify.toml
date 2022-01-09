@@ -1,6 +1,6 @@
 [build]	
-    command = "yarn build"
-    build = "build"
+    command = "npm run build"
+    build = "public"
 
 [build.environment]	
     NODE_ENV = "development"	
