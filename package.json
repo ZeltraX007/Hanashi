@@ -1,7 +1,6 @@
 {
   "name": "ecommerce-template",
   "version": "0.1.0",
-  "homepage": "https://ZeltraX007.github.io/Hanashi",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
