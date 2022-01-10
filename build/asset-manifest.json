@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.93e70bfd.chunk.css",
-    "main.js": "/static/js/main.eea20405.chunk.js",
-    "main.js.map": "/static/js/main.eea20405.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ec62bb7c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ec62bb7c.js.map",
-    "static/css/2.667bf278.chunk.css": "/static/css/2.667bf278.chunk.css",
-    "static/js/2.acd77110.chunk.js": "/static/js/2.acd77110.chunk.js",
-    "static/js/2.acd77110.chunk.js.map": "/static/js/2.acd77110.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.667bf278.chunk.css.map": "/static/css/2.667bf278.chunk.css.map",
-    "static/css/main.93e70bfd.chunk.css.map": "/static/css/main.93e70bfd.chunk.css.map",
-    "static/js/2.acd77110.chunk.js.LICENSE.txt": "/static/js/2.acd77110.chunk.js.LICENSE.txt",
-    "static/media/shopping-bag.a688874f.svg": "/static/media/shopping-bag.a688874f.svg",
-    "static/media/slick-theme.scss": "/static/media/slick.c94f7671.ttf"
+    "main.css": "/Hanashi/static/css/main.c5309131.css",
+    "main.js": "/Hanashi/static/js/main.483d11c7.js",
+    "static/media/shopping-bag.svg": "/Hanashi/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/slick.svg": "/Hanashi/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Hanashi/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Hanashi/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Hanashi/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Hanashi/index.html",
+    "main.c5309131.css.map": "/Hanashi/static/css/main.c5309131.css.map",
+    "main.483d11c7.js.map": "/Hanashi/static/js/main.483d11c7.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec62bb7c.js",
-    "static/css/2.667bf278.chunk.css",
-    "static/js/2.acd77110.chunk.js",
-    "static/css/main.93e70bfd.chunk.css",
-    "static/js/main.eea20405.chunk.js"
+    "static/css/main.c5309131.css",
+    "static/js/main.483d11c7.js"
   ]
 }
