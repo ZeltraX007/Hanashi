@@ -1,4 +1,5 @@
 import SimpleReactFooter from "simple-react-footer";
+import { withRouter } from 'react-router-dom';
 
 class Footer extends SimpleReactFooter {
     render() {
@@ -64,4 +65,4 @@ class Footer extends SimpleReactFooter {
       };
 }
 
-export default Footer;
+export default withRouter(Footer);
