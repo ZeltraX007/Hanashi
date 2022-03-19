@@ -9,6 +9,7 @@
 
     .items {
         display: grid;
+        display: -ms-grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
         margin-bottom:20px;

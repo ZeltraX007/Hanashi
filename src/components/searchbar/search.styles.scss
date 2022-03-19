@@ -1,0 +1,47 @@
+.bar {
+    width: 100%;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgba(59, 22, 0, 0.61);
+    border-radius: 20px;
+    width:50%;
+}
+
+input[type="text"] {
+    transition: width 0.4s ease-in-out;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    outline-style: none;
+    width: 100%;
+}
+
+.searchBack {
+    position: absolute;
+    border-radius: 15px;
+    margin: 0 5%;
+    width: 60%;
+    margin-top: 4rem;
+    background-color: rgba(59, 22, 0, 0.315);
+    z-index: 1;
+}
+
+.searchEntry {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 2px;
+}
+
+.searchEntry:hover {
+    background-color: rgba(128, 128, 128, 0.315);
+}
