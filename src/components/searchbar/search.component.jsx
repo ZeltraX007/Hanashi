@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
 import './search.styles.scss'
 
 export default function Search(props) {
@@ -40,11 +41,11 @@ export default function Search(props) {
                 />
                 <div className="searchBack">
                     {result.map((result, index) => (
-                        <a href="/shop" key={index}>
+                        <Link to="/shop" key={index}>
                             <div className="searchEntry">
                                 {result}
                             </div>
-                        </a>
+                        </Link>
                     ))}
                 </div>
         </div>
