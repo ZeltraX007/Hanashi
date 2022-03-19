@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import './search.styles.scss'
 
-export default function Search(props) {
+function Search(props) {
 
     const [value, setValue] = useState('');
     const [result, setResult] = useState([]);
@@ -51,3 +51,4 @@ export default function Search(props) {
         </div>
     );
 }
+export default withRouter(Search);
