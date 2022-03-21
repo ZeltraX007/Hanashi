@@ -2,24 +2,23 @@
 .slick-slide{
     width: 800px;
 }
-h2{
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
+
+.slide-show{
+    width: 40%;
 }
 h3 {
- width: 600px;
     color: #fff;
     line-height: 50px;
     margin-top: -12px;
     font-family: 'Raleway', sans-serif;
     margin-top: 5px;
-    text-align: right;
+    text-align: center;
 }
 h3, h4 {
-    
+
     padding: 0;
     color: inherit;
-    
+
     font-weight: 700;
     text-rendering: optimizeLegibility;
     line-height: 1.1;
@@ -38,4 +37,10 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 1100px) {
+    .slide-show {
+      display: none;
+    }
 }

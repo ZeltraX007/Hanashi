@@ -18,7 +18,7 @@ export default function Homepage({ history }) {
       <SearchBar />
       <SimpleSlider />
       <div className="homepage2">
-        <VerticalMode className="slideshow"/>
+        <VerticalMode />
         <Directory />
       </div>
     <Banner />

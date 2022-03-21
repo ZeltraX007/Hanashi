@@ -23,7 +23,7 @@ export default class VerticalMode extends Component {
     };
     return ( 
    
-      <div className="slideshow">
+      <div className="slide-show">
         
         <Slider {...settings}>
           <div><h3>Books are</h3></div>  
