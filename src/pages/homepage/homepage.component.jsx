@@ -3,7 +3,6 @@ import CenterMode2 from "../../components/carousel/carousel2.component";
 import CenterMode3 from "../../components/carousel/carousel3.component";
 import CenterMode4 from "../../components/carousel/carousel4.component";
 import Directory from '../../components/directory/directory.component';
-import Slideshow from '../../components/slider/slider.component';
 import Banner from '../../components/banner/banner.component'
 import Footer from "../../components/footer/footer.component"
 import SimpleSlider from '../../components/carousel/carousel.component';

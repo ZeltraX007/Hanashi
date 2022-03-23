@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 #logo{
-  width: 40%;
+  width: 11rem;
 }
 
 .logo {
   display: flex;
   flex-direction: row;
   z-index: 2;
+  margin-left: 2vw;
 }
 
  .header {
@@ -16,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  padding-right: 50px;
+  padding-right: 3vw;
 
 
   .options {
@@ -30,7 +31,7 @@
     cursor: pointer;
 
     .option {
-      padding: 10px 30px;
+      padding: .5vw 1.5vw;
       color: #0f0603;
       font-size: 15px;
       font-weight: bold;
@@ -51,7 +52,7 @@
     border: none;
     outline: none;
     color: rgba(255, 255, 255, 0.76);
-    padding: 14px 16px;
+    padding: 1vw;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -80,6 +81,8 @@
   right: 160px;
   font-size: 14px;
   min-width: fit-content;
+  min-width: -webkit-fill-available;
+  min-width: -moz-fit-content;
   background-color: #fcd5b188;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -101,4 +104,20 @@
 
 .option:hover{
   text-shadow: 0 0 20px #ffffff;
+}
+
+@media only screen and (max-width:525px) {
+  #logo{
+    width: 15vw;
+    margin-top:30%;
+    margin-bottom: 30%;
+  }
+
+  .header {
+    padding-right: 0;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
 }
