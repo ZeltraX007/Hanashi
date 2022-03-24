@@ -32,8 +32,8 @@
 
     .option {
       padding: .5vw 1.5vw;
-      color: #0f0603;
-      font-size: 15px;
+      color: rgba(156, 156, 156, 0.76);
+      font-size: 13px;
       font-weight: bold;
     }
   }
@@ -48,7 +48,7 @@
 }
 
 .dropdown .dropbtn {
-    font-size: 15px;    
+    font-size: 16px;    
     border: none;
     outline: none;
     color: rgba(255, 255, 255, 0.76);
@@ -98,17 +98,26 @@
     text-align: left;
 }
 
+.dropdown-two>.dItem>.option{
+  color: black !important;
+}
+
 .dropdown-one .dItem:hover, .dropdown-two .dItem:hover {
     background-color: rgba(221, 221, 221, 0.253);
 }
 
 .option:hover{
   text-shadow: 0 0 20px #ffffff;
+  color: rgba(233, 233, 233, 0.76) !important;
 }
 
-@media only screen and (max-width:525px) {
+@media only screen and (max-width:550px) {
+  .option{
+    font-size: 0.6rem !important;
+  }
+
   #logo{
-    width: 15vw;
+    width: 20vw;
     margin-top:30%;
     margin-bottom: 30%;
   }
@@ -119,5 +128,13 @@
 
   .logo {
     margin-left: 0;
+  }
+
+  .dropdown-one .dItem {
+    font-size: 0.8rem;
+  }
+
+  .dropbtn {
+    font-size: 0.8rem !important;
   }
 }
