@@ -1,4 +1,5 @@
-.socialMediaLogo {
-    margin-right:25px
+@media only screen and (max-width: 480px){
+    .socialMediaLogo {
+        margin-right:25px !important;
+    }
 }
-
