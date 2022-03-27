@@ -7,6 +7,7 @@ import { connect } from 'react-redux'
 import { updateCollections } from "../../redux/shop/shop.actions";
 import WithSpinner from "../../components/with-spinner/with-spinner.component";
 import Footer from "../../components/footer/footer.component"
+import "./collection-preview.styles.scss"
 
 const CollectionsOverviewWithSpinner = WithSpinner(CollectionOverview)
 const CollectionPageWithSpinner = WithSpinner(CollectionPage)

@@ -2,6 +2,8 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { selectCollection } from "../../redux/shop/shop.selector";
 import CollectionItem from '../../components/collection-item/collection-item.component'
+import Line from '../../components/line/line.component'
+import Dots from '../../components/line/dot.compoent';
 import './collection.styles.scss'
 
 function CollectionPage({ match, collection }) {
@@ -10,11 +12,13 @@ function CollectionPage({ match, collection }) {
     return (
         <div className="collection-page">
             <h2 className="title">{title}</h2>
+            <Line />
             <div className="items">
                 {
                     items.map(item => <CollectionItem key={item.id} item={item} />)
                 }
             </div>
+            <Dots />
         </div>
     )
 }

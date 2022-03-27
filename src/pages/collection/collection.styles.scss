@@ -4,7 +4,7 @@
 
     .title {
         font-size: 38px;
-        margin: 0 auto 30px;
+        margin: 0 auto 20px;
     }
 
     .items {
@@ -15,7 +15,26 @@
         margin-bottom:20px;
 
         & .collection-item {
-            margin-bottom: 50px;
+            margin-bottom: 60px;
+        }
+    }
+
+
+    @media only screen and (max-width: 1400px) {
+        .items {
+            grid-template-columns: 1fr 1fr 1fr;
+            
+        }
+    }
+
+    @media only screen and (max-width: 615px) {
+        .items {
+            grid-template-columns: 1fr 1fr;
+
+            & .collection-item {
+                margin-bottom: 25vw;
+            }
         }
     }
 }
+

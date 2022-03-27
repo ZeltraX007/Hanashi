@@ -1,0 +1,66 @@
+// animated line main (m17 damn)
+    
+.separator--line {
+    margin-bottom: 30px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    width: 0;
+    animation: separator-width 1s ease-out forwards;
+}
+
+// animated dots although no one will be able to see it
+
+@mixin dot {
+    $dot-size: 15px;
+    content: "";
+    background-color: white;
+    display: block;
+    height: $dot-size;
+    width: $dot-size;
+    border-radius: 50%;
+  }
+  .separator--dots {
+    overflow: visible;
+    border: 0;
+    @include dot();
+    position: relative;
+    &:before {
+       @include dot();
+       position: absolute;
+       left: -32px;
+       animation: dot-move-left 2s ease-out forwards;
+    }
+      &:after {
+       @include dot();
+       position: absolute;
+       left: 32px;
+       animation: dot-move-right 2s ease-out forwards;
+    }
+  }
+  
+  @keyframes dot-move-right {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 32px;
+    }
+  }
+  @keyframes dot-move-left {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -32px;
+    }
+  }
+
+@keyframes separator-width {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 93%;
+    }
+  }
