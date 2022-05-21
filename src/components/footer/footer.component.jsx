@@ -1,5 +1,6 @@
 import SimpleReactFooter from "simple-react-footer";
 import { withRouter } from 'react-router-dom';
+import "./footer.styles.scss"
 
 class Footer extends SimpleReactFooter {
     render() {

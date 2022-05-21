@@ -3,7 +3,7 @@
   width: 80%;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 400px;
   align-items: center;
   position: relative; 
   
@@ -22,7 +22,6 @@
     min-height: 95%;
     background-size: cover;
     background-position: center;
-    margin-bottom: 5px;
   }
 
   .custom-button{
@@ -65,30 +64,32 @@
   padding-left:6%;
 }
 .pop{
+  width: 50%;
+  opacity: 0.7;
   position: absolute;
-  top:30%;
-  bottom:0;
-  left:15%;
-  right: 50%;
+  top: 100px;
+  right: 33%;
+  display: none;
   display: inline-block;
-
 }
+
 .ho{
   padding:20px;
 }
 .pop .ho{
   visibility: hidden;
-  min-width: 200px ;
+  min-width: 12vw ;
   max-height: 140px;
   overflow: scroll;
   scrollbar-color: grey black;
-  background-color: rgba(0, 0, 0, 0.678);
+  background-color: rgba(0, 0, 0, 0.849);
   color: #fff;
   font-size: .8em;
   text-align: center;
   border-radius: 6px;  
   z-index: 1;
   position: absolute;
+  font-size: 15px;
 }
 .pop .ho::-webkit-scrollbar {
   width: 16px;
@@ -106,7 +107,7 @@
   -webkit-border-radius: 10px;
   border-radius: 10px;
   
-  background: rgba(26, 25, 25, 0.8); 
+  background: rgb(0, 0, 0) !important; 
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 ::-webkit-scrollbar-corner{
@@ -116,3 +117,64 @@
   visibility: visible;
 }
 
+
+
+@media only screen and (max-width: 1400px) {
+  .pop{
+    width: 50%;
+    right: 25%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .collection-item {
+    height: 350px;
+  }
+  
+  .ho{
+    padding:10px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .collection-item {
+    width: 100%;
+    height: 300px;
+  }
+
+  .pop{
+    width: 60%;
+    top: 80px;
+    right: 20%;
+  
+  }
+
+  .ho{
+    padding:10px;
+  }
+  
+  .custom-button{
+    top: 240px !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .collection-item {
+    width: 100%;
+    height: 250px;
+  }
+
+  .pop{
+    width: 60%;
+    top: 50px;
+    right: 20%;
+  
+  }
+  
+  .custom-button{
+    min-width: 130px;
+    width: 50%;
+    top: 200px !important;
+    padding: 0 10px;
+  }
+}

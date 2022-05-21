@@ -25,3 +25,4 @@ export const PreviewContainer = styled.div`
   margin-left:auto;
   margin-right:auto;
 `;
+
