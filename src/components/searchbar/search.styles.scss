@@ -32,9 +32,12 @@ input[type="text"]:focus {
     margin-top: 4rem;
     background-color: rgba(59, 22, 0, 0.315);
     z-index: 1;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .searchEntry {
+    color: rgb(37, 18, 0);
     text-align: center;
     font-weight: bolder;
     font-size: 1.5rem;

@@ -3,10 +3,10 @@
 .separator--line {
     margin-bottom: 30px;
     border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(75, 36, 1, 0.856), rgba(255, 255, 255, 0));
     width: 0;
-    animation: separator-width 1s ease-out forwards;
+    animation: separator-width 2s ease-out forwards;
 }
 
 // animated dots although no one will be able to see it
@@ -14,7 +14,7 @@
 @mixin dot {
     $dot-size: 15px;
     content: "";
-    background-color: white;
+    background-color:rgb(59, 28, 0);
     display: block;
     height: $dot-size;
     width: $dot-size;

@@ -5,7 +5,7 @@ import { clearAll } from '../../redux/cart/cart.actions.js'
 
 function StripeButton({ price, cartItem, clearAll }) {
     const priceForStripe = price * 100
-    const publishableKey = 'pk_test_51Hcr59If3Hn5BLfLNdteyaTLDzz6Sf4g9CMEK21WZm7BHjEXbVLl2uqXNK4b9Gex3GBZrZTiP2aqV5QkncN7uasa001eoP4pJr'
+    const publishableKey = 'pk_test_51KwjSBSJMJyLguXc9FCoRA655YKv2bkl2elqW4mcFhVFe6uYfgPDYJL6fOvLpRFkXHV9VE3iJDmCcoSfZyhd5wTB00XS6spWae'
 
     const onToken = token => {
         console.log(token)
