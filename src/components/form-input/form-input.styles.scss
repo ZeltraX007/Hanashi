@@ -18,7 +18,7 @@ $main-color: black;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
-    width: 100%;
+    
     border: none;
     border-radius: 0;
     border-bottom: 1px solid $sub-color;
@@ -52,3 +52,20 @@ $main-color: black;
     }
   }
 }
+
+// @media (min-width: 769px) and (max-width:899px)
+// {
+//   .group {
+//     .form-input {
+//       width: 100%;
+//     }
+// }
+@media only screen and (min-width: 899px)
+{
+  .group {
+  .form-input {
+    width: 100%;
+  }
+}
+
+  }

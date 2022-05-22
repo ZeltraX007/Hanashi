@@ -8,7 +8,16 @@
     }
 
     .buttons{
-        display: flex;
-        justify-content: space-between;
+       justify-content: space-between;
     }
+}
+
+@media only screen and (min-width: 769px)
+{
+    .sign-in{
+        .buttons{
+            display: flex; 
+        }   
+    }
+    
 }
