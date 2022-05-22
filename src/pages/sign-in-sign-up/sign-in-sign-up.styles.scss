@@ -7,6 +7,7 @@
 }
 
 .foot-fix {
+    
     position:fixed;
     bottom:0;
 }
@@ -21,7 +22,8 @@
 @media only screen and (max-width: 768px)
 {
     .sign-in-and-sign-up{
-        width: 650px; 
+        width: 100%; 
      height: 1300px;
+     padding: 30px;
     } 
 }
