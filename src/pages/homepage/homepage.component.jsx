@@ -20,7 +20,7 @@ export default function Homepage({ history }) {
         <VerticalMode />
         <Directory />
       </div>
-    <Banner />
+   
       <CenterMode2 />
       <CenterMode3 />
       <CenterMode4 />
