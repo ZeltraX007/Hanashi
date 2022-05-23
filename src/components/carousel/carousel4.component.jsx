@@ -48,12 +48,6 @@ export default class CenterMode4 extends Component {
             slidesToScroll: 0
           }
         },
-        {
-          breakpoint: 370,
-          settings: {
-            centerPadding: "10px",
-          }
-        }
       ]
     };
     return (

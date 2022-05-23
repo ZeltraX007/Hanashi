@@ -47,12 +47,6 @@ export default class CenterMode2 extends Component {
             slidesToShow: 1,
             slidesToScroll: 0
           }
-        },
-        {
-          breakpoint: 370,
-          settings: {
-            centerPadding: "10px",
-          }
         }
       ]
     };
