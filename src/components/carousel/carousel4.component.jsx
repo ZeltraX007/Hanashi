@@ -22,11 +22,16 @@ export default class CenterMode4 extends Component {
       mobileFirst:true,
       responsive: [
         {
+          breakpoint: 4000,
+          settings: {
+            centerPadding: "300px",
+          }
+        },
+        {
           breakpoint: 1024,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
+            slidesToScroll: 1
           }
         },
         {
@@ -41,6 +46,12 @@ export default class CenterMode4 extends Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 0
+          }
+        },
+        {
+          breakpoint: 370,
+          settings: {
+            centerPadding: "10px",
           }
         }
       ]

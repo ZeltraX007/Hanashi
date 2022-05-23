@@ -44,7 +44,7 @@ const CheckoutPage = ({cartItems, total}) => (
                   Please use any data for address and name and email, also use <br />
                   card number: 4242 4242 4242 4242, expiry: 02/22, cvv: 123 for dummy payment
       </div>
-      <StripeButton price={total} />
+      <div className='sticky'><StripeButton price={total} /></div>
     </div>
     <Footer className="footer"/>
   </div>

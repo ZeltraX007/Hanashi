@@ -21,7 +21,16 @@ export default class CenterMode extends Component {
       adaptiveHeight: true,
       mobileFirst:true,
       lazyLoad: 'ondemand',
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
       responsive: [
+        {
+          breakpoint: 4000,
+          settings: {
+            centerPadding: "300px",
+          }
+        },
         {
           breakpoint: 1024,
           settings: {
@@ -41,6 +50,12 @@ export default class CenterMode extends Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 0
+          }
+        },
+        {
+          breakpoint: 370,
+          settings: {
+            centerPadding: "10px",
           }
         }
       ]

@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import StripeCheckout from 'react-stripe-checkout'
 import { clearAll } from '../../redux/cart/cart.actions.js'
 
+import "./stripe-button.styles.scss";
+
 function StripeButton({ price, cartItem, clearAll }) {
     const priceForStripe = price * 100
     const publishableKey = 'pk_test_51KwjSBSJMJyLguXc9FCoRA655YKv2bkl2elqW4mcFhVFe6uYfgPDYJL6fOvLpRFkXHV9VE3iJDmCcoSfZyhd5wTB00XS6spWae'
