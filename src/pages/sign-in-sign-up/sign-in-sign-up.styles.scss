@@ -1,19 +1,33 @@
 .sign-in-and-sign-up{
-     width: 850px;
+    width: 50%; 
     justify-content: space-between;
     margin: 30px auto;
-    height: 800px;
 }
 
 .foot-fix {
-    
     position:fixed;
     bottom:0;
 }
+
+.custom-button{
+    padding: 0;
+}
+
+@media only screen and (max-width: 1550px) {
+    .sign-in-and-sign-up{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .sign-in-and-sign-up{
+        width: 85%;
+    }
+}
+
 @media only screen and (min-width: 900px)
 {
     .sign-in-and-sign-up{
-      
         display: flex;
         justify-content: space-between;
     } 
@@ -22,17 +36,20 @@
 {
     .sign-in-and-sign-up{
         width: 50%; 
-     height: 1500px;
-     
-    
     } 
+
+    .foot-fix {
+        position: relative;
+    }
 }
 @media only screen and (max-width: 768px)
 {
     .sign-in-and-sign-up{
+        margin: 10px auto;
         width: 50%; 
-     height: 1500px;
-     
-    
     } 
+
+    .foot-fix {
+        position: relative;
+    }
 }

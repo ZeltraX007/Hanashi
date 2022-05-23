@@ -24,6 +24,16 @@
     margin-right: 30%;
 }
 
+.foot-wrap{
+    position: fixed;
+    bottom: 0;
+}
+@media only screen and (max-width: 1100px)
+{
+    .foot-wrap{
+        position: relative;
+    }
+}
 @media only screen and (max-width: 768px)
 {
 

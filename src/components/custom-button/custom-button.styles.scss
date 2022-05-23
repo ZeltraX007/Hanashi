@@ -23,6 +23,7 @@
   }
 
   &.google-sign-in{
+    margin-left: 10px;
     background-color: #4285f4;
     color: white;
 
@@ -41,6 +42,16 @@
       background-color: black;
       color: white;
       border: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-button {
+    &.google-sign-in{
+      margin: 10px 0;
+
+
     }
   }
 }

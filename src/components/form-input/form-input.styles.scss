@@ -12,6 +12,7 @@ $main-color: black;
   margin: 45px 0;
 
   .form-input {
+    width: 100%;
     background: none;
     background-color: white;
     color: $sub-color;
@@ -53,19 +54,3 @@ $main-color: black;
   }
 }
 
-// @media (min-width: 769px) and (max-width:899px)
-// {
-//   .group {
-//     .form-input {
-//       width: 100%;
-//     }
-// }
-@media only screen and (min-width: 899px)
-{
-  .group {
-  .form-input {
-    width: 100%;
-  }
-}
-
-  }

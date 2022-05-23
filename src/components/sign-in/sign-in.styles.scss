@@ -1,5 +1,5 @@
 .sign-in{
-    width: 380px;
+    max-width: 380px;
     display: flex;
     flex-direction: column;
 
@@ -10,6 +10,7 @@
     .buttons{
        justify-content: space-between;
     }
+
 }
 
 @media only screen and (min-width: 769px)
