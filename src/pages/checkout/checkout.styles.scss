@@ -39,3 +39,13 @@
       text-shadow: 1px 1px 2px  brown;
   }
 }
+
+@media (max-width: 900px){
+  .checkout-page {
+    width: 75%;
+  
+  .total {
+    font-size: 22px;
+  }
+}
+}
