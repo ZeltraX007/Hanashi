@@ -1,0 +1,33 @@
+.StripeCheckout{
+  background: none !important;
+}
+
+
+.StripeCheckout span {
+  background-image: none !important;
+  text-align: center;
+  min-width: 165px;
+  width: auto;
+  height: 50px !important;
+  letter-spacing: 0.5px;
+  line-height: 50px !important;
+  padding: 0 35px 0 35px !important;
+  font-size: 15px !important;
+  background-color:  bisque;
+  color:black !important;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed' !important;
+  font-weight: bolder !important;
+  border: none;
+  cursor: pointer;
+  display: flex !important;
+  justify-content: center;
+  border-radius: 0px !important;
+
+  &:hover {
+    background-color:black !important;
+    color: white !important;
+    border: 1px solid black !important;
+  }
+
+}
