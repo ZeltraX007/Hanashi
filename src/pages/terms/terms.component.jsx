@@ -11,7 +11,7 @@ return (
             <h1>Hanashi&trade; Terms of Use</h1>
             <div>
                 <div>
-                    <span className='welcome'>You are welcome to Bookswagon.com. You can avail the services offered here or through its affiliates, but prior to that you need to agree to the terms and conditions. If you browse our site or visit our shop, you have to accept these conditions.
+                    <span className='welcome'>You are welcome to Hanashi. You can avail the services offered here or through its affiliates, but prior to that you need to agree to the terms and conditions. If you browse our site or visit our shop, you have to accept these conditions.
                         <br />Make sure that you have read the terms and conditions properly. While availing current or future services that are offered by the site or its affiliates, you will abide by these conditions and guidelines that are applicable.
                         </span>
                 </div>
@@ -54,7 +54,7 @@ return (
                             <p>Copyright: All the contents like graphics, texts, button icons, logos, digital downloads, audio clips is the property of Bookswagon.com and is completely protected by Indian law of Copyright. The content is also the exclusive property of the site including the software in use. 
                                 <br /><br />Trademark:</p>
                                 <ul>
-                                <li>Protected Marks: The protected marks include Bookswagon.com & design and other things that are in the website.</li>
+                                <li>Protected Marks: The protected marks include Hanashi.com & design and other things that are in the website.</li>
                                 <li>Protected Graphics: The graphics, page headers, logos, icons, scripts are trademarks of the site. These trademarks and trade dress might not be used in relation to products and services that are not of the company. All the other trademarks are owned by the company and its affiliate sites. These are the property of different owners. They might not be connected to or affiliated with Bookswagon.com.</li>
                                 </ul>
                         </Slidedown>
