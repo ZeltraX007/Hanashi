@@ -53,7 +53,7 @@ export default class CenterMode2 extends Component {
     return (
       <div className="slider">
        <div>
-         <h2>Trending</h2>
+         <h1>Trending</h1>
          <Link to="/shop"><h6 id="browse">Browse now</h6></Link>
         </div>
         <Slider {...settings}>

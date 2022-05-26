@@ -48,7 +48,7 @@ export default class CenterMode3 extends Component {
     return (
       <div className="slider">
        <div>
-         <h2>All Time Favourites</h2>
+         <h1>All Time Favourites</h1>
          <Link to="/shop"><h6 id="browse">Browse now</h6></Link>
         </div>
         <Slider {...settings}>

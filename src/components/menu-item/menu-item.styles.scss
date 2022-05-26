@@ -58,7 +58,7 @@
     position: absolute;
 
     .title {
-      font-weight: bold;
+      font-weight: bolder;
       margin-bottom: 6px;
       font-size: 22px;
       color: #4a4a4a;
@@ -72,7 +72,14 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .content{padding: 0 10px !important;
+
+  .menu-item{
+    .content{
+      padding: 0 10px !important;
+    }
+    .title{
+      font-size: 18px !important;
+    }
   }
   
 }

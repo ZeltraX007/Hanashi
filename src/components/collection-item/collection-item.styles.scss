@@ -127,12 +127,16 @@
 }
 
 @media only screen and (max-width: 1250px) {
+  .collection-footer{
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
   .collection-item {
     height: 350px;
   }
   
   .ho{
     padding:10px;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
 }
 

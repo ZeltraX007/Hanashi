@@ -17,7 +17,7 @@ const CheckoutPage = ({cartItems, total}) => (
         </div>
 
         <div className="header-block">
-          <span>Description</span>
+          <span>Name</span>
         </div>
 
         <div className="header-block">
@@ -46,7 +46,7 @@ const CheckoutPage = ({cartItems, total}) => (
       </div>
       <div className='sticky'><StripeButton price={total} /></div>
     </div>
-    <Footer className="footer"/>
+    <div className='foot-fix'><Footer className="footer"/></div>
   </div>
 );
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
 :root {
    --main-bg-color: ;
 }
@@ -6,7 +8,7 @@
 }
 
 body {
-   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Cutive Mono', monospace;
   padding-top: 20px;
    background:url("https://i.ibb.co/VC1LvGn/pexels-photo-235985.jpg") no-repeat;
    background-size: cover;
