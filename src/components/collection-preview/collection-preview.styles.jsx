@@ -1,6 +1,5 @@
 import styled,{ keyframes } from 'styled-components';
 
-
 export const CollectionPreviewContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -10,6 +9,7 @@ export const CollectionPreviewContainer = styled.div`
 
 export const TitleContainer = styled.h1`
   font-size: 38px;
+  font-family: 'Special Elite', cursive;
   margin: 15px;
   margin-left: 50px;
   cursor: pointer;
