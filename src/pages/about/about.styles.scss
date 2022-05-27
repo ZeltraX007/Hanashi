@@ -1,40 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 .head{
     display: flex;
     margin: 20px;
    padding-left: 10%; 
    font-family: 'Special Elite', cursive;
    }
+   .head p{
+       margin-bottom: 0px;
+   }
 .bout p{
-    font-size: 17px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-family: 'Reenie Beanie', cursive;
     font-weight: bold;
     line-height: 1.5em;
-    
+   padding-left: 10%;
+   padding-right: 10%;
+    text-align: center;
 }
+.part {
+    
+    animation: corner 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+  $s: 100% / 8;
+  $t: 0.001%;
+  
+  @keyframes corner {
+    #{$s * 0} {
+      border-top-left-radius:70% 10% ;
+    }
+    #{$s * 1} {
+      border-top-left-radius: 70%;
+      border-top-right-radius: 70%;
+    }
+    #{$s * 2} {
+      border-top-right-radius: 10% 70%;
+    }
+    #{$s * 2 + $t} {
+      border-top-right-radius: 70% 10%;
+    }
+    #{$s * 3} {
+      border-top-right-radius: 70%;
+    }
+    #{$s * 4} {
+        border-top-left-radius: 70%;
+    }
+    #{$s * 4 + $t} {
+        border-top-left-radius: 70% 10%;
+    }
+  }
+  
 .bout{
     margin:40px;
+    padding: 5px 5px 5px 15px;
     padding: 30px;
-    width: 80%;
+    width: 70%;
     background-color: rgba(99, 63, 38, 0.897);
     box-shadow: 5px 5px 250px rgb(41, 40, 40) ;
    position: relative;
    left: 5%;
    bottom: 7em;
    align-content: center;
-   margin: 40px;
+   margin: 40px; 
+   display: inline-flex;   
 }
-.bout {
- display: inline-flex;   
-} 
-.col-1, .col-2{
+
+.col-1{
+    justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
-    width: 50%;
+    
 }
-.col-1{
-    border-right: 1px solid rgb(204, 201, 197);
-}
+
 
 @media (min-width: 1100px){
     .head{
@@ -50,7 +95,7 @@
 
   }
   .bout p{
-      font-size: 15px;
+      font-size: 30px;
   }
  
 }
@@ -60,7 +105,7 @@
         font-size: 70px;
     }
     .bout p{
-        font-size: 13px;
+        font-size: 25px;
     }
  
 }
@@ -70,7 +115,7 @@
         font-size: 60px;
     }
     .bout p{
-        font-size: 12px;
+        font-size: 20px;
     }
  
 }

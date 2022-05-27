@@ -3,49 +3,104 @@
     height: 5%;
 }
 .heady{
-    font-size: 40px;
+    font-size: 50px;
+    font-family: 'Special Elite', cursive;;
     width: fit-content;    
     display:flex;
     justify-content: center;
     align-items: center;
 }
-
+.box{
+    width: 90%;
+    margin: 2%;
+}
 .row{
 display: flex;
 justify-content: center;
-
 }
 .row div{
-    width: 30%;
+    width: 50%;
    text-align: center;
    font-size: 35px;
 }
-.id{
-    width: 200px;
+.imag img{
+    padding: 20px;
+    width: 300px;
+    height: 350px;
     border-radius: 20%;
-    height: 250px;
+
     object-fit: cover;
 }
-.arr{
-    width: 10%;
+.name{
+    font-weight: bold;
+}
+.q{
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #221717;
+}
+@media(hover:hover){
+
+.imag img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .1s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.imag span:hover img{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}}
+@media (min-width:700px) and (max-width:1000px){
+    .imag img{
+        width:220px ;
+        height:300px ;
+    }
+    .q{
+        font-size: 20px;
+    }  
+}
+@media (min-width:500px) and (max-width:699px)
+{
+    .imag img{
+        width:200px ;
+        height:250px ;
+    }
+    .q{
+        font-size: 15px;
+    }  
+}
+@media (max-width:499px){
+    .imag img{
+        width:150px ;
+        height:200px ;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .q{
+        font-size: 12px;
+    }
+}
+// .arr{
+//     width: 10%;
   
-    position:absolute;
-}
-.arr2{
-    width: 5%;
-    position: absolute;
-}
-.row p{
-    padding-top: 100px;
-}
-.last{
-    position: relative;
-    right: 80px;
-}
-.shif{
-    position: relative;
-    left: 30px;
-}
+//     position:absolute;
+// }
+// .arr2{
+//     width: 5%;
+//     position: absolute;
+// }
+// .row p{
+//     padding-top: 100px;
+// }
+// .last{
+//     position: relative;
+//     right: 80px;
+// }
+// .shif{
+//     position: relative;
+//     left: 30px;
+// }
 // .foott{
  
 // }
