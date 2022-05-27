@@ -31,12 +31,12 @@ justify-content: center;
 
     object-fit: cover;
 }
-.name{
+.nam{
     font-weight: bold;
 }
 .q{
-    font-size: 25px;
-    text-shadow: 1px 1px 2px #221717;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 @media(hover:hover){
 
@@ -56,7 +56,7 @@ justify-content: center;
         height:300px ;
     }
     .q{
-        font-size: 20px;
+        font-size: 17px;
     }  
 }
 @media (min-width:500px) and (max-width:699px)
@@ -74,33 +74,10 @@ justify-content: center;
         width:150px ;
         height:200px ;
     }
-    .name{
+    .nam{
         font-size: 30px;
     }
     .q{
         font-size: 12px;
     }
 }
-// .arr{
-//     width: 10%;
-  
-//     position:absolute;
-// }
-// .arr2{
-//     width: 5%;
-//     position: absolute;
-// }
-// .row p{
-//     padding-top: 100px;
-// }
-// .last{
-//     position: relative;
-//     right: 80px;
-// }
-// .shif{
-//     position: relative;
-//     left: 30px;
-// }
-// .foott{
- 
-// }
